@@ -1,2 +1,7 @@
-# lt-20260522-042729105-small-business-01-9105-2c1ec94e
-Real staging load test batch 20260522-042729105 for Small Business.
+# Small Business Load Test 01 20260522-042729105
+
+Generated with the Small Business Astro template.
+
+- Landing content lives in `src/config` and `src/data`.
+- Blog posts live in `src/content/blog`.
+- Generated pages live under `src/pages`.

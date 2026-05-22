@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Terms of Use';
+const description = 'A simple terms page covering access, acceptable use, ownership, and legal disclaimers.';
+---
+
+<BaseLayout title={title} description={description}>
+  <article class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <header class="mb-10">
+      <p class="text-sm font-bold uppercase tracking-wide text-primary">Pages</p>
+      <h1 class="font-heading text-4xl font-bold text-text">{title}</h1>
+      <p class="mt-4 text-lg text-text-muted">{description}</p>
+    </header>
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Acceptance of these terms</h2>
+        <p>By using Small Business Load Test 01 20260522-042729105, visitors agree to these terms as they are published from time to time.</p>
+        <p>If a visitor does not agree with the terms, the site should not present itself as intended for continued use.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">How the website may be used</h2>
+        <p>The website may be used to read published material, review public information, and engage with the site in a normal and lawful way.</p>
+        <p>Readers should avoid automated scraping, disruption, abusive use, or any activity that interferes with the site or its audience.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Content ownership and intellectual property</h2>
+        <p>Text, layout, and site-specific assets belong to the site owner or the relevant rights holder unless the page says otherwise.</p>
+        <p>Readers should not assume that a public page grants any licence to reuse the material outside ordinary viewing or sharing.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Availability and accuracy</h2>
+        <p>The site may change, move, or disappear without notice, and published information may not always be complete or current.</p>
+        <p>Visitors should treat the site as a public information source rather than a guaranteed record of every fact or event.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">External links and third-party services</h2>
+        <p>External links are provided for convenience, and the site does not control the content, behaviour, or policies of external providers.</p>
+        <p>If the site later embeds video, maps, analytics, or other hosted tools, those services can have their own terms and privacy handling.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Disclaimers and liability</h2>
+        <p>The site makes no warranty that every page is complete, current, or suitable for any specific purpose.</p>
+        <p>Visitors should make their own judgment before relying on published material, especially where the content touches regulated, financial, or time-sensitive topics.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Changes to these terms</h2>
+        <p>These terms may be updated when the site changes, but the published version should remain the one that governs current use.</p>
+        <p>Material changes should be reflected before a new feature, content type, or workflow goes live.</p>
+      </section>
+  </article>
+</BaseLayout>

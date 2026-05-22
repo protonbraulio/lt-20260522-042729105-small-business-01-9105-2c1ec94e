@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Contact Small Business Load Test 01 20260522-042729105';
+const description = 'Use the contact details below for general enquiries, editorial notes, and site-related questions.';
+---
+
+<BaseLayout title={title} description={description}>
+  <article class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <header class="mb-10">
+      <p class="text-sm font-bold uppercase tracking-wide text-primary">Pages</p>
+      <h1 class="font-heading text-4xl font-bold text-text">{title}</h1>
+      <p class="mt-4 text-lg text-text-muted">{description}</p>
+    </header>
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Available contact routes</h2>
+        <p>Use [CONTACT_EMAIL] for general enquiries, editorial notes, and messages that do not need a public reply.</p>
+        <p>If a newsletter is added later, it should be kept separate from general contact requests.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">What you can send here</h2>
+        <p>Use the published email route for general enquiries, corrections, or messages that do not need a formal support queue.</p>
+        <p>The contact page is best suited to questions about bookings, opening-hour questions, customer requests, location questions, and general business communication.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">What readers should expect</h2>
+        <p>Responses, when they are provided, will depend on the type of enquiry and the availability of the editorial team.</p>
+        <p>No guaranteed response window is implied unless the site later publishes one as part of a real support or business workflow.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">How messages are handled</h2>
+        <p>Contact messages should be treated as operational communication rather than as public content.</p>
+        <p>If more formal handling is required later, the site can add a specific retention or routing policy without changing the basic page structure.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Reader corrections and editorial contact</h2>
+        <p>For publishing sites, this page also acts as the usual place for corrections, tip-offs, partnership enquiries, and requests related to published material.</p>
+        <p>If contact routes change later, this page should be updated before the old route is removed from the site.</p>
+      </section>
+  </article>
+</BaseLayout>

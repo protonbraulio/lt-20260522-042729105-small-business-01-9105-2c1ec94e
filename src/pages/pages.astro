@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import generatedPages from '../config/generated-pages.json';
+
+const pages = generatedPages as Array<{ href: string; title?: string; label?: string }>;
+---
+
+<BaseLayout title="Pages" description="Generated site pages">
+  <section class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <h1 class="font-heading text-4xl font-bold text-text">Pages</h1>
+    {pages.length > 0 ? (
+      <ul class="mt-8 list-disc space-y-3 pl-5">
+        {pages.map((page) => <li><a class="text-primary hover:underline" href={page.href}>{page.label ?? page.title ?? page.href}</a></li>)}
+      </ul>
+    ) : (
+      <p class="mt-6 text-text-muted">No generated pages have been added yet.</p>
+    )}
+  </section>
+</BaseLayout>

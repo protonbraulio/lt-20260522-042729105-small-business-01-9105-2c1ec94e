@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'About the Publication';
+const description = 'An overview of the purpose, audience, and publishing standards behind Small Business Load Test 01 20260522-042729105.';
+---
+
+<BaseLayout title={title} description={description}>
+  <article class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <header class="mb-10">
+      <p class="text-sm font-bold uppercase tracking-wide text-primary">Pages</p>
+      <h1 class="font-heading text-4xl font-bold text-text">{title}</h1>
+      <p class="mt-4 text-lg text-text-muted">{description}</p>
+    </header>
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">What this site covers</h2>
+        <p>Small Business Load Test 01 20260522-042729105 exists to publish opening information, services, location details, updates, and customer-facing notices.</p>
+        <p>It is aimed at customers, prospective customers, and visitors reviewing the business and its services.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">How content is selected</h2>
+        <p>We prefer clear, practical language and content that helps readers understand the site, its topic, and the surrounding context.</p>
+        <p>New pages, revisions, and updates are chosen to keep the site useful even when the brand, team, or business details are still evolving.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">What appears here over time</h2>
+        <p>Small Business Load Test 01 20260522-042729105 is expected to publish opening information, services, location details, updates, and customer-facing notices.</p>
+        <p>The site can cover publish practical business information and help visitors understand the offer.</p>
+        <p>That usually includes opening details, service summaries, local updates, and practical customer information.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">How updates are handled</h2>
+        <p>If a page becomes outdated, it can be revised or replaced without changing the underlying purpose of the site.</p>
+        <p>Readers should expect the content to evolve as the publication matures, especially once actual brand details, authors, or contact routes are added.</p>
+      </section>
+  </article>
+</BaseLayout>

@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Cookie Policy';
+const description = 'A baseline explanation of how cookies, analytics, embeds, and related tools may be used on the site.';
+---
+
+<BaseLayout title={title} description={description}>
+  <article class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <header class="mb-10">
+      <p class="text-sm font-bold uppercase tracking-wide text-primary">Pages</p>
+      <h1 class="font-heading text-4xl font-bold text-text">{title}</h1>
+      <p class="mt-4 text-lg text-text-muted">{description}</p>
+    </header>
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">What cookies are</h2>
+        <p>Cookies are small pieces of data that can help a site remember settings, measure basic usage, and keep pages working as expected.</p>
+        <p>This page stands on its own, but it should still be read together with the privacy policy when a fuller legal set is published.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Cookie categories</h2>
+        <p>Essential cookies are used to keep the site functioning and to support basic navigation, security, and session behaviour.</p>
+        <p>Preference cookies, if used, can help remember basic display choices or language settings.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">How cookies may be used</h2>
+        <p>Essential cookies can keep the site functioning, while other cookies may support preferences, analytics, or embedded media.</p>
+        <p>If the site later adds a newsletter, comments, account areas, or tracking, the cookie policy should be updated before those features are public.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">External services that may set cookies</h2>
+        <p>Third-party technologies can include analytics platforms, embedded video players, map services, newsletter tools, or comment providers.</p>
+        <p>The cookie policy should identify real services only when the site actually uses them.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Controls and choices</h2>
+        <p>Visitors can usually manage cookies through browser settings and, where available, any site-level preference tools.</p>
+        <p>If consent tools are introduced later, they should be explained clearly and should match the actual cookie behaviour of the site.</p>
+      </section>
+
+      <section class="space-y-4">
+        <h2 class="font-heading text-2xl font-bold text-text">Changes to this policy</h2>
+        <p>This page should be updated if analytics, embeds, or other third-party tools are added or removed.</p>
+        <p>The wording should stay accurate to the live implementation rather than to any generic template assumption.</p>
+      </section>
+  </article>
+</BaseLayout>
